@@ -1,0 +1,27 @@
+# Sweep configs and cluster job scripts are not part of this release
+/scripts/sweeps/
+/scripts/launch/
+/scripts/jobs/
+*.sh
+*.yaml
+*.yml
+
+# Datasets, run outputs and W&B logs
+/data/
+/results/
+wandb/
+
+# Python / editor artefacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Checkpoints, archives, core dumps
+*.pt
+*.pth
+*.zip
+core
+core.*
+*.log
